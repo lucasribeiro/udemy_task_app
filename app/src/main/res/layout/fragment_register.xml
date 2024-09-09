@@ -12,9 +12,26 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-    <com.google.android.material.appbar.MaterialToolbar
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content" >
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:navigationIcon="@drawable/ic_back">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/crie_sua_conta"
+                android:textColor="@color/white"
+                android:layout_gravity="center_horizontal" />
+
+
+        </com.google.android.material.appbar.MaterialToolbar>
+    </com.google.android.material.appbar.AppBarLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -29,44 +46,45 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="E-mail"
+            android:text="@string/e_mail"
+            android:layout_marginTop="16dp"
             android:textColor="@color/white" />
 
         <EditText
+            android:id="@+id/etEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:background="@drawable/bg_edit_text"
-            android:hint="Digite seu e-mail"
-            android:inputType="textEmailAddress"
-            android:padding="16dp" />
+            android:hint="@string/digite_seu_e_mail"
+            style="@style/EditTextTheme"
+            android:inputType="textEmailAddress" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Senha"
+            android:text="@string/senha"
             android:textColor="@color/white" />
 
         <EditText
+            android:id="@+id/etPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:background="@drawable/bg_edit_text"
-            android:hint="Digite seu sua senha"
-            android:inputType="textPassword"
-            android:padding="16dp" />
+            android:hint="@string/digite_seu_sua_senha"
+            style="@style/EditTextTheme"
+            android:inputType="textPassword" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:background="@drawable/bg_btn"
-            android:text="CRIAR CONTA"
-            android:textColor="@color/color_default"
-            app:backgroundTint="@null" />
+            android:text="@string/criar_conta"
+            style="@style/ButtonTheme" />
 
         <ProgressBar
+            android:id="@+id/progressBar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"

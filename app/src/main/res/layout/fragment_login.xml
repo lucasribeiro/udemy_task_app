@@ -20,42 +20,41 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="E-mail"
+            android:text="@string/e_mail"
             android:textColor="@color/white" />
 
         <EditText
+            android:id="@+id/etEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
-            android:background="@drawable/bg_edit_text"
-            android:padding="16dp"
             android:layout_marginTop="4dp"
-            android:hint="Digite seu e-mail" />
+            style="@style/EditTextTheme"
+            android:hint="@string/digite_seu_e_mail" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Senha"
+            android:text="@string/senha"
             android:textColor="@color/white" />
 
         <EditText
+            android:id="@+id/etPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
-            android:background="@drawable/bg_edit_text"
-            android:padding="16dp"
+            style="@style/EditTextTheme"
             android:layout_marginTop="4dp"
-            android:hint="Digite seu sua senha" />
+            android:hint="@string/digite_seu_sua_senha" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:background="@drawable/bg_btn"
-            android:textColor="@color/color_default"
-            app:backgroundTint="@null"
-            android:text="LOGIN" />
+            style="@style/ButtonTheme"
+            android:text="@string/login" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -68,7 +67,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Criar conta"
+                android:text="@string/criar_conta"
                 android:textColor="@color/white" />
 
             <TextView
@@ -77,11 +76,12 @@
                 android:layout_height="wrap_content"
                 android:textAlignment="textEnd"
                 android:layout_weight="1"
-                android:text="Recuperar conta"
+                android:text="@string/recuperar_conta"
                 android:textColor="@color/white" />
         </LinearLayout>
         
         <ProgressBar
+            android:id="@+id/progressBar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
