@@ -1,5 +1,41 @@
 <resources>
     <string name="app_name">TaskApp</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="status_task_todo">A Fazer</string>
+    <string name="status_task_doing">Fazendo</string>
+    <string name="status_task_done">Feitas</string>
+
+    <string name="text_button_warning">Entendi</string>
+    <string name="text_title_warning">Atenção</string>
+    <string name="text_email_empty">Preencha seu email</string>
+    <string name="text_password_empty">Preencha sua senha</string>
+    <string name="text_description_empty">Preencha a descrição</string>
+
+    <!-- Register fragment -->
+    <string name="text_email_empty_register">Preencha um e-mail válido</string>
+    <string name="text_password_empty_register">Preencha uma senha</string>
+
+
+    <string name="digite_seu_e_mail">Digite seu e-mail</string>
+    <string name="digite_seu_sua_senha">Digite sua senha</string>
+    <string name="informe_o_e_mail_associado_a_sua_conta">Informe o e-mail associado a sua conta.</string>
+    <string name="enviar">Enviar</string>
+    <string name="e_mail">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="login">Login</string>
+    <string name="criar_conta">Criar conta</string>
+    <string name="recuperar_conta">Recuperar conta</string>
+    <string name="recuperar_sua_conta">Recuperar sua conta</string>
+    <string name="nova_tarefa">Nova tarefa</string>
+    <string name="descri_o">Descrição</string>
+    <string name="criar_nova_tela_de_login_para_o_app">Criar nova tela de login para o App</string>
+    <string name="status">Status</string>
+    <string name="a_fazer">A Fazer</string>
+    <string name="fazendo">Fazendo</string>
+    <string name="feitas">Feitas</string>
+    <string name="salvar">Salvar</string>
+    <string name="crie_sua_conta">Crie sua conta</string>
+    <string name="adicionar_nova_terefa">Adicionar nova terefa</string>
+
+
 </resources>
