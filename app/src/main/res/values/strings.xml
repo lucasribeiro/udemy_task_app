@@ -15,7 +15,7 @@
     <string name="text_email_empty_register">Preencha um e-mail válido</string>
     <string name="text_password_empty_register">Preencha uma senha</string>
 
-
+    <!-- textos gerais das telas -->
     <string name="digite_seu_e_mail">Digite seu e-mail</string>
     <string name="digite_seu_sua_senha">Digite sua senha</string>
     <string name="informe_o_e_mail_associado_a_sua_conta">Informe o e-mail associado a sua conta.</string>
